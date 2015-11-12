@@ -465,7 +465,7 @@ class Core(object):
                 value[k] = rr._default
 
         for k, v in value.items():
-            r = m.get(k, None)
+            r = m.get(k, m.get('=', None))
             log.debug(u" + : {}".format(m))
             log.debug(u" + : {} {}".format(k, v))
             log.debug(u" + : {}".format(r))

@@ -1,0 +1,10 @@
+data:
+  value1: 0
+  value2: 0.5
+  value3: -0.9
+schema:
+  type: map
+  mapping:
+    =:
+      type: number
+      range: { max: 1, min: -1 }

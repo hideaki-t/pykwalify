@@ -365,6 +365,8 @@ class TestCore(object):
             "36s.yaml",
             # Test keyword regex declared matching-rule all
             "37s.yaml",
+            # Test default value of mapping
+            "38s.yaml",
         ]
 
         _fail_tests = [
